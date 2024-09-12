@@ -1,0 +1,10 @@
+version: '3'
+services:
+  langhchain-app:
+    image: helloworld-dev-conference-langserve-ai:0.1.0
+    ports: 
+      - 8080:8080
+    environment: # 如果你有抽離成環境變數的話再用
+      QDRANT_HOST: qdrant
+      QDRANT_KEY: xx
+      AOAI_KEY: xx
