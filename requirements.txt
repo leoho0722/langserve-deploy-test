@@ -1,0 +1,9 @@
+langchain
+langchain-cli
+langchain-core
+langchain-community
+langchain-openai
+langserve[all]
+qdrant-client
+python-dotenv
+pypdf
